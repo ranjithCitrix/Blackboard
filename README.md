@@ -117,12 +117,13 @@ You are now ready to set and run your first data synchronization. As a large qua
 For more information, see [Verify needed entities](/en-us/citrix-microapps/set-up-template-integrations.html#verify-needed-entities) and [Set data synchronization](/en-us/citrix-microapps/set-up-template-integrations.html#set-data-synchronization) in the Configure the integration article.
 
 >**Note:**
-> Update the url in **View on Blackboard** button of My Grades page in My Grades microapp.   
-> Blackboard supports pagination type “Offset”, due to this extra API calls are triggered in all the endpoints where we have implemented pagination.   
-> Blackboard developer server supports only 10000 API calls/Site/24hours  
-> Blackboard production server supports Up to 75000 API calls/Site/24hours  
-> Retained only Course Memberships and Course Announcements as part of incremental sync, due to API call limit; remaining endpoints will be triggered as part of full synchronization  
->Data type of below columns should be changed  
+> 1. **My Grades microapp** - User need to update their domain_url in **View on Blackboard** button of **My Grades page**.  
+> Example: https://{{domain_url}}/webapps/bb-social-learning-BBLEARN/execute/mybb?cmd=display&toolId=MyGradesOnMyBb_____MyGradesTool.  
+> 3. Currently pagination limit is set to 100, user can extend the limit up to 200 based on API.  
+> 4. Blackboard developer server supports Up to 10000 API calls/Site/24hours  
+> 5. Blackboard production server supports Up to 75000 API calls/Site/24hours  
+> 6. Due to limit in API call, incremental sync is setup to retain only **Course Memberships** and **Course Announcements**. Remaining endpoints will be triggered as part of full synchronization.    
+>7. Data type of below columns should be changed   
 
 |Table|Column|Data type|
 |:-----------|:-----------|:---------|
@@ -142,8 +143,8 @@ Existing application integrations come with out-of-the-box microapps. Start with
 |:-------------|:-------------|
 | New Course Registration notification | When a student enrolled for a course, enrolled student receives a notification.  |
 | Course Registration Detail page | Provides a read only view of enrolled course with course details and instructor details|
-| List Courses page | Allow users to view the list of available courses. |
-| Course Details page | Allow users to view the course details, instructor details and enroll to the course using **Quick Enroll** button. |
+| List Courses page | Allows user to view the list of available courses. |
+| Course Details page | Allows user to view the course details, instructor details and ability to  enroll the course using **Quick Enroll** button. |
 
 **Create Course Announcement:** Microapp is used to create announcement for a course by the Instructor.
 
@@ -155,24 +156,24 @@ Existing application integrations come with out-of-the-box microapps. Start with
 
 |Notification or Page|Use-case workflows|
 |:-------------|:-------------|
-| Course Details page | Allow instructors to view the list of available courses. |
-| Member Details page | Allow instructors to view the list of members available for the course. |
-| Grade Details page | Allow instructors to view the grades of specific member of the course. |
+| Course Details page | Allows instructor to view the list of available courses. |
+| Member Details page | Allows instructor to view the list of members enrolled for the course. |
+| Grade Details page | Allows instructor to view the grades of specific member of the course. |
 
 **My Courses:** Microapp is used to view course announcements and attachments of a course
 
 |Notification or Page|Use-case workflows|
 |:-------------|:-------------|
-| New Course Announcements notification | When there is new announcement for a course, individual students of the course will receives a notification.|
+| New Course Announcements notification | Student enrolled for the course will receive a notification, when there is new announcement for a course.|
 | Course Announcement Detail page | Provides a read only view of new announcement of the course and details. |
-| My Courses page | Allow users to view the list of courses user is enrolled. |
-| Course Details page | Allow users to view the list of announcements and attachments of a course. |
-| Announcement Detail page | Allow users to view the course announcement and its details. |
-| Attachment Detail page | Allow users to view and download the attachment. |
+| My Courses page | Allows user to view the list of courses user is enrolled. |
+| Course Details page | Allows user to view the list of announcements and attachments of a course. |
+| Announcement Detail page | Allows user to view the course announcement and its details. |
+| Attachment Detail page | Allows user to view and download the attachment. |
 
 **My Grades:** Microapp is used to view grades of a course by Student.
 
 |Notification or Page|Use-case workflows|
 |:-------------|:-------------|
-| New Grades notification | When there is a new grades posted for a course, individual students of the course will receive notifications. |
+| New Grades notification | Students enrolled for the course will receive a notification, when there is a new grades posted for a course. |
 | My Grades page | Allow users to view the grades by selecting the course. |
