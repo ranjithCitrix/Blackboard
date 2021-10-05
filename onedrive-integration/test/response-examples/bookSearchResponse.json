@@ -1,0 +1,39 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(driveItem)",
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.driveItem",
+      "createdDateTime": "2021-02-16T12:00:00Z",
+      "id": "01TLHSDBXUZJT3HRKYKJF2KXEFJHRWXDVU",
+      "lastModifiedDateTime": "2021-02-16T13:54:48Z",
+      "name": "Book.xlsx",
+      "webUrl": "https://citrixiwsdev-my.sharepoint.com/personal/manager_citrixiwsdev_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc=%7BB367CAF4-58C5-4B52-A55C-8549E36B8EB4%7D&file=Book.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1",
+      "size": 8395,
+      "createdBy": {
+        "user": {
+          "email": "manager@citrixiwsdev.onmicrosoft.com",
+          "displayName": "Paul Atreides"
+        }
+      },
+      "lastModifiedBy": {
+        "user": {
+          "email": "manager@citrixiwsdev.onmicrosoft.com",
+          "displayName": "Paul Atreides"
+        }
+      },
+      "parentReference": {
+        "driveId": "b!ZHliSgci2k6dH4ntK_gN52UV5kJDV99MkIgQhnCvzJUoRyArzr3bS5zBgm6Jkt8t",
+        "driveType": "business",
+        "id": "01TLHSDBV6Y2GOVW7725BZO354PWSELRRZ"
+      },
+      "file": {
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "fileSystemInfo": {
+        "createdDateTime": "2021-02-16T12:00:00Z",
+        "lastModifiedDateTime": "2021-02-16T13:54:48Z"
+      },
+      "searchResult": {}
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(driveItem)",
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.driveItem",
+      "createdDateTime": "2021-03-15T15:22:36Z",
+      "id": "01TLHSDBSGTHZVV2WMWZEZ5YAGNNHPKGCV",
+      "lastModifiedDateTime": "2021-03-15T15:22:36Z",
+      "name": "plants",
+      "webUrl": "https://citrixiwsdev-my.sharepoint.com/personal/manager_citrixiwsdev_onmicrosoft_com/Documents/MICROAPP-13196_test_files/plants",
+      "size": 0,
+      "createdBy": {
+        "user": {
+          "email": "manager@citrixiwsdev.onmicrosoft.com",
+          "displayName": "Paul Atreides"
+        }
+      },
+      "lastModifiedBy": {
+        "user": {
+          "email": "manager@citrixiwsdev.onmicrosoft.com",
+          "displayName": "Paul Atreides"
+        }
+      },
+      "parentReference": {
+        "driveId": "b!ZHliSgci2k6dH4ntK_gN52UV5kJDV99MkIgQhnCvzJUoRyArzr3bS5zBgm6Jkt8t",
+        "driveType": "business",
+        "id": "01TLHSDBUERPGDLBV6ANEI766BRPY3YVTV"
+      },
+      "fileSystemInfo": {
+        "createdDateTime": "2021-03-15T15:22:36Z",
+        "lastModifiedDateTime": "2021-03-15T15:22:36Z"
+      },
+      "folder": {
+        "childCount": 0
+      },
+      "searchResult": {}
+    }
+  ]
+}

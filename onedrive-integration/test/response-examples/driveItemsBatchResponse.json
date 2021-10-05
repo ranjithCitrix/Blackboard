@@ -1,0 +1,81 @@
+{
+  "responses": [
+    {
+      "id": "1",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-cache",
+        "OData-Version": "4.0",
+        "Content-Type": "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false;charset=utf-8"
+      },
+      "body": {
+        "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ea1d2379-95f9-4ba2-86e6-83acf3ed86ca')/drive/items/$entity",
+        "createdDateTime": "2019-11-17T10:18:00Z",
+        "id": "01TLHSDBV6Y2GOVW7725BZO354PWSELRRZ",
+        "lastModifiedDateTime": "2021-06-09T17:19:10Z",
+        "name": "root",
+        "webUrl": "https://citrixiwsdev-my.sharepoint.com/personal/manager_citrixiwsdev_onmicrosoft_com/Documents",
+        "size": 2650499,
+        "parentReference": {
+          "driveId": "b!ZHliSgci2k6dH4ntK_gN52UV5kJDV99MkIgQhnCvzJUoRyArzr3bS5zBgm6Jkt8t",
+          "driveType": "business"
+        },
+        "fileSystemInfo": {
+          "createdDateTime": "2019-11-17T10:18:00Z",
+          "lastModifiedDateTime": "2021-06-09T17:19:10Z"
+        },
+        "folder": {
+          "childCount": 11
+        },
+        "root": {}
+      }
+    },
+    {
+      "id": "2",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "no-cache",
+        "OData-Version": "4.0",
+        "Content-Type": "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false;charset=utf-8"
+      },
+      "body": {
+        "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ea1d2379-95f9-4ba2-86e6-83acf3ed86ca')/drive/items/$entity",
+        "createdDateTime": "2021-03-15T15:26:40Z",
+        "eTag": "\"{25138B5B-FE36-4225-9101-F4F2AEEF70E3},1\"",
+        "id": "01TLHSDBS3RMJSKNX6EVBJCAPU6KXO64HD",
+        "lastModifiedDateTime": "2021-03-15T15:26:40Z",
+        "name": "vegetables",
+        "webUrl": "https://citrixiwsdev-my.sharepoint.com/personal/manager_citrixiwsdev_onmicrosoft_com/Documents/MICROAPP-13196_test_files/plants/vegetables",
+        "cTag": "\"c:{25138B5B-FE36-4225-9101-F4F2AEEF70E3},0\"",
+        "size": 9,
+        "createdBy": {
+          "user": {
+            "email": "manager@citrixiwsdev.onmicrosoft.com",
+            "id": "ea1d2379-95f9-4ba2-86e6-83acf3ed86ca",
+            "displayName": "Paul Atreides"
+          }
+        },
+        "lastModifiedBy": {
+          "user": {
+            "email": "manager@citrixiwsdev.onmicrosoft.com",
+            "id": "ea1d2379-95f9-4ba2-86e6-83acf3ed86ca",
+            "displayName": "Paul Atreides"
+          }
+        },
+        "parentReference": {
+          "driveId": "b!ZHliSgci2k6dH4ntK_gN52UV5kJDV99MkIgQhnCvzJUoRyArzr3bS5zBgm6Jkt8t",
+          "driveType": "business",
+          "id": "01TLHSDBSGTHZVV2WMWZEZ5YAGNNHPKGCV",
+          "path": "/drive/root:/MICROAPP-13196_test_files/plants"
+        },
+        "fileSystemInfo": {
+          "createdDateTime": "2021-03-15T15:26:40Z",
+          "lastModifiedDateTime": "2021-03-15T15:26:40Z"
+        },
+        "folder": {
+          "childCount": 3
+        }
+      }
+    }
+  ]
+}

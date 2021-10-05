@@ -1,0 +1,38 @@
+{
+  "contentType": [
+    "file"
+  ],
+  "query": {
+    "or": [
+      {
+        "ftcontains": {
+          "value": "book"
+        }
+      },
+      {
+        "ftcontains": {
+          "value": "sap"
+        }
+      }
+    ]
+  },
+  "return": {
+    "attributes": [
+      "itemId",
+      "contentType",
+      "mimeType",
+      "file",
+      "title",
+      "path",
+      "creator",
+      "uploadDate",
+      "size"
+    ]
+  },
+  "options": {
+    "page": {
+      "size": 10,
+      "from": 1
+    }
+  }
+}

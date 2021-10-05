@@ -1,0 +1,23 @@
+{
+  "requests": [
+    {
+      "entityTypes": [
+        "driveItem"
+      ],
+      "query": {
+        "queryString": "(book OR sap)"
+      },
+      "fields": [
+        "id",
+        "name",
+        "title",
+        "webUrl",
+        "createdBy",
+        "createdDateTime",
+        "size"
+      ],
+      "from": 0,
+      "size": 9
+    }
+  ]
+}
