@@ -1,0 +1,34 @@
+{
+  "contentType": [
+    "folder",
+    "file"
+  ],
+  "query": {
+    "and": [
+      {
+        "ftcontains": {
+          "value": "Team"
+        }
+      }
+    ]
+  },
+  "return": {
+    "attributes": [
+      "title",
+      "path",
+      "creator",
+      "uploadDate",
+      "size",
+      "itemId",
+      "contentType",
+      "mimeType",
+      "foundIn"
+    ]
+  },
+  "options": {
+    "page": {
+      "size": 50,
+      "from": 0
+    }
+  }
+}

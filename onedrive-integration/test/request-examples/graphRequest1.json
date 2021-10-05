@@ -1,0 +1,24 @@
+{
+  "requests": [
+    {
+      "entityTypes": [
+        "listItem"
+      ],
+      "query": {
+        "queryString": "IWS path:\"https://iwsbeta2.sharepoint.com\""
+      },
+      "fields": [
+        "id",
+        "fileName",
+        "createdDateTime",
+        "webUrl",
+        "createdBy",
+        "parentReference",
+        "mimeType",
+        "size"
+      ],
+      "from": 0,
+      "size": 9
+    }
+  ]
+}

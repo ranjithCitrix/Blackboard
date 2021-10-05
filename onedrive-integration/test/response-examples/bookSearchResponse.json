@@ -1,0 +1,48 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#microsoft.graph.searchResponse",
+    "value": [
+        {
+            "searchTerms": [
+                "newteam",
+                "notebook"
+            ],
+            "hitsContainers": [
+                {
+                    "total": 1,
+                    "moreResultsAvailable": false,
+                    "hits": [
+                        {
+                            "hitId": "65E0D32C-9A2A-42E5-8E37-2CA9FE96C92D",
+                            "rank": 1,
+                            "summary": "1 Microsoft Teams Services Microsoft Teams Services {65E0D32C-9A2A<ddd/>",
+                            "resource": {
+                                "@odata.type": "#microsoft.graph.listItem",
+                                "id": "65E0D32C-9A2A-42E5-8E37-2CA9FE96C92D",
+                                "createdDateTime": "2020-06-01T10:40:14Z",
+                                "webUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/SiteAssets/NewTeam Notebook",
+                                "createdBy": {
+                                    "user": {
+                                        "displayName": "Adele Vance",
+                                        "email": "adelev@iwsbeta2.onmicrosoft.com"
+                                    }
+                                },
+                                "parentReference": {
+                                    "id": "01L6E5QHJRUGZR7ISHR5BJ5KLJMWZ27NVX",
+                                    "siteId": "iwsbeta2.sharepoint.com,27a5118f-1573-4200-bd52-d89280a70701,e61c5b9d-20f7-4afd-ad71-2c43648581e1"
+                                },
+                                "fields": {
+                                    "id": "AAAAALWCetgzQ3lCqAFVpeJP5toHAAd4mV_6ryhFqaJEbF2ZyiMAAAA11XUAAAd4mV_6ryhFqaJEbF2ZyiMAAAA98YYAAA2",
+                                    "fileName": "NewTeam Notebook",
+                                    "createdBy": "Adele Vance",
+                                    "mimeType": "Folder",
+                                    "size": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "resultTemplates": {}
+        }
+    ]
+}

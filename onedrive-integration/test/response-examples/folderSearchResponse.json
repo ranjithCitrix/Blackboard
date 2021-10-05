@@ -1,0 +1,47 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#microsoft.graph.searchResponse",
+  "value": [
+      {
+          "searchTerms": [
+              "test",
+              "evidence"
+          ],
+          "hitsContainers": [
+              {
+                  "total": 1,
+                  "moreResultsAvailable": false,
+                  "hits": [
+                      {
+                          "hitId": "A80C15FC-DB02-40FF-9C16-C60D0BDBBADB",
+                          "rank": 1,
+                          "summary": "1 {A80C15FC-DB02<ddd/>",
+                          "resource": {
+                              "@odata.type": "#microsoft.graph.listItem",
+                              "id": "A80C15FC-DB02-40FF-9C16-C60D0BDBBADB",
+                              "createdDateTime": "2021-09-08T10:27:55Z",
+                              "webUrl": "https://iwsbeta2.sharepoint.com/Shared Documents/Test Evidence",
+                              "createdBy": {
+                                  "user": {
+                                      "displayName": "Adele Vance",
+                                      "email": "adelev@iwsbeta2.onmicrosoft.com"
+                                  }
+                              },
+                              "parentReference": {
+                                  "id": "014A7WMBFVESEJ375MWFALWAY7D3SXMFTC",
+                                  "siteId": "iwsbeta2.sharepoint.com,b3235d22-993b-4d46-8679-9fbced4e7d20,0f8a12f4-6e8f-4db6-b3ae-a431ef314743"
+                              },
+                              "fields": {
+                                  "id": "AAAAALWCetgzQ3lCqAFVpeJP5toHAAd4mV_6ryhFqaJEbF2ZyiMAAAA11XUAAAd4mV_6ryhFqaJEbF2ZyiMAAFpcBsUAAA2",
+                                  "fileName": "Test Evidence",
+                                  "createdBy": "Adele Vance",
+                                  "mimeType": "Folder"
+                              }
+                          }
+                      }
+                  ]
+              }
+          ],
+          "resultTemplates": {}
+      }
+  ]
+}

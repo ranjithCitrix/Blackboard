@@ -1,0 +1,170 @@
+{
+  "responses": [
+      {
+          "id": "068A97D7-5BFF-4AA3-919A-14167BC41EFA",
+          "status": 404,
+          "headers": {
+              "Cache-Control": "no-cache",
+              "Content-Type": "application/json"
+          },
+          "body": {
+              "error": {
+                  "code": "itemNotFound",
+                  "message": "The resource could not be found.",
+                  "innerError": {
+                      "date": "2021-09-21T10:52:20",
+                      "request-id": "07b465c4-e817-4b81-8f0e-884af2d7bb08",
+                      "client-request-id": "07b465c4-e817-4b81-8f0e-884af2d7bb08"
+                  }
+              }
+          }
+      },
+      {
+          "id": "A403036E-0728-462D-A055-256A1CDEEDDB",
+          "status": 200,
+          "headers": {
+              "Cache-Control": "no-cache",
+              "OData-Version": "4.0",
+              "Content-Type": "application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false;charset=utf-8"
+          },
+          "body": {
+              "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('iwsbeta2.sharepoint.com%2C27a5118f-1573-4200-bd52-d89280a70701%2Ce61c5b9d-20f7-4afd-ad71-2c43648581e1')/drive/items('01L6E5QHPL2RF4ELV6YVH3T3UDVOUSF62X')/children",
+              "value": [
+                  {
+                      "createdDateTime": "2020-06-01T13:17:30Z",
+                      "eTag": "\"{02F17AA2-29A1-4C6A-ADE8-C85C6489560C},1\"",
+                      "id": "01L6E5QHNCPLYQFIJJNJGK32GILRSISVQM",
+                      "lastModifiedDateTime": "2020-06-01T13:17:30Z",
+                      "name": "Email Messages",
+                      "webUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/Shared%20Documents/General/Email%20Messages",
+                      "cTag": "\"c:{02F17AA2-29A1-4C6A-ADE8-C85C6489560C},0\"",
+                      "size": 8906,
+                      "createdBy": {
+                          "application": {
+                              "id": "51133ff5-8e0d-4078-bcca-84fb7f905b64",
+                              "displayName": "Microsoft Teams Mailhook"
+                          }
+                      },
+                      "lastModifiedBy": {
+                          "application": {
+                              "id": "51133ff5-8e0d-4078-bcca-84fb7f905b64",
+                              "displayName": "Microsoft Teams Mailhook"
+                          }
+                      },
+                      "parentReference": {
+                          "driveId": "b!jxGlJ3MVAEK9UtiSgKcHAZ1bHOb3IP1KrXEsQ2SFgeHusDoEc2H3RLsQi6THvavB",
+                          "driveType": "documentLibrary",
+                          "id": "01L6E5QHPL2RF4ELV6YVH3T3UDVOUSF62X",
+                          "path": "/drive/root:/General"
+                      },
+                      "fileSystemInfo": {
+                          "createdDateTime": "2020-06-01T13:17:30Z",
+                          "lastModifiedDateTime": "2020-06-01T13:17:30Z"
+                      },
+                      "folder": {
+                          "childCount": 1
+                      }
+                  },
+                  {
+                      "@microsoft.graph.downloadUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/_layouts/15/download.aspx?UniqueId=a403036e-0728-462d-a055-256a1cdeeddb&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaXdzYmV0YTIuc2hhcmVwb2ludC5jb21AZmFlZjgyYzYtNmI2Yi00YmZmLWFlN2ItNjdhYjM4NWEzZjQ5IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTYzMjIyMTU0MSIsImV4cCI6IjE2MzIyMjUxNDEiLCJlbmRwb2ludHVybCI6IkJPK0xIS3FWYlhLRmVwSEFWK1dBblhyR1BOYk8wQ2toOUExQTB3VC9uU0U9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMzMiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik1EZGlORFkxWXpRdFpUZ3hOeTAwWWpneExUaG1NR1V0T0RnMFlXWXlaRGRpWWpBNCIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJNamRoTlRFeE9HWXRNVFUzTXkwME1qQXdMV0prTlRJdFpEZzVNamd3WVRjd056QXgiLCJhcHBfZGlzcGxheW5hbWUiOiJTaGFyZXBvaW50IFNlYXJjaCIsImdpdmVuX25hbWUiOiJFbGlzYSIsImZhbWlseV9uYW1lIjoiUmF5bmUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwiYXBwaWQiOiI5OTAzMmY2Zi1kYTczLTQ1NjEtYjZiZS03MzljOTIwMWE0NTAiLCJ0aWQiOiJmYWVmODJjNi02YjZiLTRiZmYtYWU3Yi02N2FiMzg1YTNmNDkiLCJ1cG4iOiJlbGlzYS5yYXluZUB3c2lhcHBmYWN0b3J5LmNvbSIsInB1aWQiOiIxMDAzMjAwMTA2MDg3RTM1IiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDEwNjA4N2UzNUBsaXZlLmNvbSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxmaWxlcy5yZWFkIG15ZmlsZXMud3JpdGUgYWxsZmlsZXMud3JpdGUgYWxsc2l0ZXMucmVhZCBhbGxzaXRlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.cFhoS00zYmpMbW1lWDcxU3pzVy9rZ2pKSGJ4T0pPYmdIdlVRMFZkVlFWND0&ApiVersion=2.0",
+                      "createdDateTime": "2020-06-10T11:27:20Z",
+                      "eTag": "\"{A403036E-0728-462D-A055-256A1CDEEDDB},2\"",
+                      "id": "01L6E5QHLOAMB2IKAHFVDKAVJFNION53O3",
+                      "lastModifiedDateTime": "2020-06-10T11:27:25Z",
+                      "name": "health.txt",
+                      "webUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/Shared%20Documents/General/health.txt",
+                      "cTag": "\"c:{A403036E-0728-462D-A055-256A1CDEEDDB},2\"",
+                      "size": 833,
+                      "createdBy": {
+                          "application": {
+                              "id": "cc15fd57-2c6c-4117-a88c-83b1d56b4bbe",
+                              "displayName": "Microsoft Teams Services"
+                          },
+                          "user": {
+                              "email": "AdeleV@iwsbeta2.onmicrosoft.com",
+                              "id": "56028f49-815b-41d7-b7b6-ec114fc1baf5",
+                              "displayName": "Adele Vance"
+                          }
+                      },
+                      "lastModifiedBy": {
+                          "application": {
+                              "id": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+                              "displayName": "Microsoft Teams Web Client"
+                          },
+                          "user": {
+                              "email": "AdeleV@iwsbeta2.onmicrosoft.com",
+                              "id": "56028f49-815b-41d7-b7b6-ec114fc1baf5",
+                              "displayName": "Adele Vance"
+                          }
+                      },
+                      "parentReference": {
+                          "driveId": "b!jxGlJ3MVAEK9UtiSgKcHAZ1bHOb3IP1KrXEsQ2SFgeHusDoEc2H3RLsQi6THvavB",
+                          "driveType": "documentLibrary",
+                          "id": "01L6E5QHPL2RF4ELV6YVH3T3UDVOUSF62X",
+                          "path": "/drive/root:/General"
+                      },
+                      "file": {
+                          "mimeType": "text/plain",
+                          "hashes": {
+                              "quickXorHash": "IdW1K0xjwj4uslYhMwXN3W3hF84="
+                          }
+                      },
+                      "fileSystemInfo": {
+                          "createdDateTime": "2020-06-10T11:27:20Z",
+                          "lastModifiedDateTime": "2020-06-10T11:27:25Z"
+                      }
+                  },
+                  {
+                      "@microsoft.graph.downloadUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/_layouts/15/download.aspx?UniqueId=f2ec3a1e-b0c9-45f1-b4b6-87c1c7260c3e&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvaXdzYmV0YTIuc2hhcmVwb2ludC5jb21AZmFlZjgyYzYtNmI2Yi00YmZmLWFlN2ItNjdhYjM4NWEzZjQ5IiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwIiwibmJmIjoiMTYzMjIyMTU0MSIsImV4cCI6IjE2MzIyMjUxNDEiLCJlbmRwb2ludHVybCI6Im1FRldqSmlVeVNhVFIrdW1XSVExdE1kTlVUZTgrNEtyYmp3YmtVcmRRRnc9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxMzMiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImNpZCI6Ik1EZGlORFkxWXpRdFpUZ3hOeTAwWWpneExUaG1NR1V0T0RnMFlXWXlaRGRpWWpBNCIsInZlciI6Imhhc2hlZHByb29mdG9rZW4iLCJzaXRlaWQiOiJNamRoTlRFeE9HWXRNVFUzTXkwME1qQXdMV0prTlRJdFpEZzVNamd3WVRjd056QXgiLCJhcHBfZGlzcGxheW5hbWUiOiJTaGFyZXBvaW50IFNlYXJjaCIsImdpdmVuX25hbWUiOiJFbGlzYSIsImZhbWlseV9uYW1lIjoiUmF5bmUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwiYXBwaWQiOiI5OTAzMmY2Zi1kYTczLTQ1NjEtYjZiZS03MzljOTIwMWE0NTAiLCJ0aWQiOiJmYWVmODJjNi02YjZiLTRiZmYtYWU3Yi02N2FiMzg1YTNmNDkiLCJ1cG4iOiJlbGlzYS5yYXluZUB3c2lhcHBmYWN0b3J5LmNvbSIsInB1aWQiOiIxMDAzMjAwMTA2MDg3RTM1IiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDEwNjA4N2UzNUBsaXZlLmNvbSIsInNjcCI6Im15ZmlsZXMucmVhZCBhbGxmaWxlcy5yZWFkIG15ZmlsZXMud3JpdGUgYWxsZmlsZXMud3JpdGUgYWxsc2l0ZXMucmVhZCBhbGxzaXRlcy53cml0ZSBhbGxwcm9maWxlcy5yZWFkIiwidHQiOiIyIiwidXNlUGVyc2lzdGVudENvb2tpZSI6bnVsbH0.WDVJUlVxVGdBV1VrSzQ0S3o5WjM2YzYzMGxnYUt1V1lHVEFkRFo3Zmptbz0&ApiVersion=2.0",
+                      "createdDateTime": "2020-06-10T11:28:10Z",
+                      "eTag": "\"{F2EC3A1E-B0C9-45F1-B4B6-87C1C7260C3E},2\"",
+                      "id": "01L6E5QHI6HLWPFSNQ6FC3JNUHYHDSMDB6",
+                      "lastModifiedDateTime": "2020-06-10T11:28:13Z",
+                      "name": "Law firm.txt",
+                      "webUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/Shared%20Documents/General/Law%20firm.txt",
+                      "cTag": "\"c:{F2EC3A1E-B0C9-45F1-B4B6-87C1C7260C3E},2\"",
+                      "size": 3316,
+                      "createdBy": {
+                          "application": {
+                              "id": "cc15fd57-2c6c-4117-a88c-83b1d56b4bbe",
+                              "displayName": "Microsoft Teams Services"
+                          },
+                          "user": {
+                              "email": "AdeleV@iwsbeta2.onmicrosoft.com",
+                              "id": "56028f49-815b-41d7-b7b6-ec114fc1baf5",
+                              "displayName": "Adele Vance"
+                          }
+                      },
+                      "lastModifiedBy": {
+                          "application": {
+                              "id": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+                              "displayName": "Microsoft Teams Web Client"
+                          },
+                          "user": {
+                              "email": "AdeleV@iwsbeta2.onmicrosoft.com",
+                              "id": "56028f49-815b-41d7-b7b6-ec114fc1baf5",
+                              "displayName": "Adele Vance"
+                          }
+                      },
+                      "parentReference": {
+                          "driveId": "b!jxGlJ3MVAEK9UtiSgKcHAZ1bHOb3IP1KrXEsQ2SFgeHusDoEc2H3RLsQi6THvavB",
+                          "driveType": "documentLibrary",
+                          "id": "01L6E5QHPL2RF4ELV6YVH3T3UDVOUSF62X",
+                          "path": "/drive/root:/General"
+                      },
+                      "file": {
+                          "mimeType": "text/plain",
+                          "hashes": {
+                              "quickXorHash": "Nqo+Sz48kXPYA8WoYKEeAudCX3E="
+                          }
+                      },
+                      "fileSystemInfo": {
+                          "createdDateTime": "2020-06-10T11:28:10Z",
+                          "lastModifiedDateTime": "2020-06-10T11:28:13Z"
+                      }
+                  }
+              ]
+          }
+      }
+  ]
+}

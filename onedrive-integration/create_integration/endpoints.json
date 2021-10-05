@@ -1,0 +1,13 @@
+{
+  "name": "Search Files",
+  "httpMethod": "Post",
+  "endpointType": "onDemand",
+  "category": "search",
+  "endpointScriptRequests": [
+      {
+          "scriptId": "script.prod.js",
+          "functionName": "searchByRequest",
+          "endpointScriptType": "onExecution"
+      }
+  ]
+}
