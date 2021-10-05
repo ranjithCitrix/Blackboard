@@ -1,15 +1,13 @@
-[
-    {
-        "name": "one-drive-search",
-        "httpMethod": "Post",
-        "endpointType": "onDemand",
-        "category": "search",
-        "endpointScripts": [
-            {
-                "scriptName": "script.dev",
-                "functionName": "searchByRequest",
-                "endpointScriptType": "onExecution"
-            }
-        ]
-    }
-]
+{
+  "name": "Search Files",
+  "httpMethod": "Post",
+  "endpointType": "onDemand",
+  "category": "search",
+  "endpointScriptRequests": [
+      {
+          "scriptId": "script.prod.js",
+          "functionName": "searchByRequest",
+          "endpointScriptType": "onExecution"
+      }
+  ]
+}

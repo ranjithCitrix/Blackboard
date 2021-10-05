@@ -1,39 +1,48 @@
 {
-  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#Collection(driveItem)",
-  "value": [
-    {
-      "@odata.type": "#microsoft.graph.driveItem",
-      "createdDateTime": "2021-02-16T12:00:00Z",
-      "id": "01TLHSDBXUZJT3HRKYKJF2KXEFJHRWXDVU",
-      "lastModifiedDateTime": "2021-02-16T13:54:48Z",
-      "name": "Book.xlsx",
-      "webUrl": "https://citrixiwsdev-my.sharepoint.com/personal/manager_citrixiwsdev_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc=%7BB367CAF4-58C5-4B52-A55C-8549E36B8EB4%7D&file=Book.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1",
-      "size": 8395,
-      "createdBy": {
-        "user": {
-          "email": "manager@citrixiwsdev.onmicrosoft.com",
-          "displayName": "Paul Atreides"
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#microsoft.graph.searchResponse",
+    "value": [
+        {
+            "searchTerms": [
+                "newteam",
+                "notebook"
+            ],
+            "hitsContainers": [
+                {
+                    "total": 1,
+                    "moreResultsAvailable": false,
+                    "hits": [
+                        {
+                            "hitId": "65E0D32C-9A2A-42E5-8E37-2CA9FE96C92D",
+                            "rank": 1,
+                            "summary": "1 Microsoft Teams Services Microsoft Teams Services {65E0D32C-9A2A<ddd/>",
+                            "resource": {
+                                "@odata.type": "#microsoft.graph.listItem",
+                                "id": "65E0D32C-9A2A-42E5-8E37-2CA9FE96C92D",
+                                "createdDateTime": "2020-06-01T10:40:14Z",
+                                "webUrl": "https://iwsbeta2.sharepoint.com/sites/NewTeam/SiteAssets/NewTeam Notebook",
+                                "createdBy": {
+                                    "user": {
+                                        "displayName": "Adele Vance",
+                                        "email": "adelev@iwsbeta2.onmicrosoft.com"
+                                    }
+                                },
+                                "parentReference": {
+                                    "id": "01L6E5QHJRUGZR7ISHR5BJ5KLJMWZ27NVX",
+                                    "siteId": "iwsbeta2.sharepoint.com,27a5118f-1573-4200-bd52-d89280a70701,e61c5b9d-20f7-4afd-ad71-2c43648581e1"
+                                },
+                                "fields": {
+                                    "id": "AAAAALWCetgzQ3lCqAFVpeJP5toHAAd4mV_6ryhFqaJEbF2ZyiMAAAA11XUAAAd4mV_6ryhFqaJEbF2ZyiMAAAA98YYAAA2",
+                                    "fileName": "NewTeam Notebook",
+                                    "createdBy": "Adele Vance",
+                                    "mimeType": "Folder",
+                                    "size": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "resultTemplates": {}
         }
-      },
-      "lastModifiedBy": {
-        "user": {
-          "email": "manager@citrixiwsdev.onmicrosoft.com",
-          "displayName": "Paul Atreides"
-        }
-      },
-      "parentReference": {
-        "driveId": "b!ZHliSgci2k6dH4ntK_gN52UV5kJDV99MkIgQhnCvzJUoRyArzr3bS5zBgm6Jkt8t",
-        "driveType": "business",
-        "id": "01TLHSDBV6Y2GOVW7725BZO354PWSELRRZ"
-      },
-      "file": {
-        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-      },
-      "fileSystemInfo": {
-        "createdDateTime": "2021-02-16T12:00:00Z",
-        "lastModifiedDateTime": "2021-02-16T13:54:48Z"
-      },
-      "searchResult": {}
-    }
-  ]
+    ]
 }

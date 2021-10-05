@@ -1,33 +1,24 @@
+import { extractPagination } from './queryTransform';
+
 const template = {
-    entityTypes: [
-        'driveItem'
-    ],
-    query: {},
-    fields: [
-        // TODO fields from request and field names from constants.js
-        'id',
-        'name',
-        'title',
-        'webUrl',
-        'createdBy',
-        'createdDateTime',
-        'size'
-    ],
-    // TODO pagination
-    from: 0,
-    size: 9
-    // TODO orderBy
-}
+	entityTypes: [ 'listItem' ],
+	query: {},
+	fields: [ 'id', 'fileName', 'createdDateTime', 'webUrl', 'createdBy', 'parentReference', 'size', 'mimeType' ],
+	from: 0,
+	size: 9
+};
 
-export default function (queryString, fields) {
-    return ({
-        requests: [
-            {
-                ...template,
-                query: {...template.query, queryString},
-                fields: (Array.isArray(fields) && fields.length > 0) ? fields : template.fields
-            }
-        ]
-    })
-
+export default function(queryString, options, fields) {
+	const { from, size } = extractPagination(options);
+	return {
+		requests: [
+			{
+				...template,
+				query: { ...template.query, queryString },
+				fields: Array.isArray(fields) && fields.length > 0 ? fields : template.fields,
+				from: from,
+				size: size
+			}
+		]
+	};
 }

@@ -1,6 +1,5 @@
-
 interface ISdkLibrary {
-    load: (name: string) => any
+  load: (name: string) => any;
 }
 
-declare var library: ISdkLibrary
+declare var library: ISdkLibrary;

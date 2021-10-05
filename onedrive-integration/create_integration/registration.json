@@ -4,14 +4,9 @@
     "tokenUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
     "clientId": "{{sorClientId}}",
     "clientSecret": "{{sorClientSecret}}",
-    "username": "{{sorUsername}}",
-    "password": "{{sorPassword}}",
-    "scopes": [
-      "https://graph.microsoft.com/Files.ReadWrite"
-    ],
+    "scopes": [".default", "offline_access"],
     "loginParams": {}
   },
   "enabled": true,
-  "blockedUsers": [
-  ]
+  "blockedUsers": []
 }

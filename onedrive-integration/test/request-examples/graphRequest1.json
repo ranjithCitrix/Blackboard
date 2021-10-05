@@ -2,18 +2,19 @@
   "requests": [
     {
       "entityTypes": [
-        "driveItem"
+        "listItem"
       ],
       "query": {
-        "queryString": "(book OR sap)"
+        "queryString": "IWS path:\"https://iwsbeta2.sharepoint.com\""
       },
       "fields": [
         "id",
-        "name",
-        "title",
+        "fileName",
+        "createdDateTime",
         "webUrl",
         "createdBy",
-        "createdDateTime",
+        "parentReference",
+        "mimeType",
         "size"
       ],
       "from": 0,

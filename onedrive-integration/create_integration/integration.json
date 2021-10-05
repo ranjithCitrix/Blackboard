@@ -1,14 +1,14 @@
 {
-    "vendor": "Citrix Systems, Inc.",
-    "title": "MicroSoft OneDrive Search Integration",
-    "description": "Test integration for OneDrive search v2.2",
-    "iconUrl": "https://iws-prod-global-customicons-cdn-endpoint.azureedge.net/image/7TwzpadhUzR27KW3izO4fMUUccBxSCoY.png",
-    "authType": "OAuth2",
-    "sorUrl": "https://graph.microsoft.com",
-    "sor": "OneDrive",
-    "requiredScopes": [
-      "https://graph.microsoft.com/Files.ReadWrite"
-    ],
-    "enablementMode": "RequiresAdmin",
-    "version": "2.2"
+	"vendor": "Citrix",
+	"titles": { "en": "Microsoft SharePoint Search Integration" },
+	"descriptions": { "en": "Search for Microsoft SharePoint and Teams files within the Workspace search bar" },
+	"entitlements": [ "any" ],
+	"iconUrl": "https://iws-prod-global-customicons-cdn-endpoint.azureedge.net/image/5cp0C15oMyOt8CM2mcdHnF75jN9HIJlX.png",
+	"authType": "OAuth2",
+	"customAuthInputKeys": null,
+	"sorUrl": "https://graph.microsoft.com/v1.0",
+	"sor": "SharePoint",
+	"requiredScopes": [ ".default", "offline_access" ],
+	"version": "1.0",
+	"enablementMode": "RequiresAdmin"
 }
